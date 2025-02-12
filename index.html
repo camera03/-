@@ -71,9 +71,9 @@ var context = canvas.getContext('2d');
 
        context.drawImage(video, 0, 0, 640, 640);
        var canvasData = canvas.toDataURL("image/png")
-       // cc = String(canvasData).replace("data:image/png;base64,","")
+       cc = String(canvasData).replace("data:image/png;base64,","")
       //  console.log(cc)
-       post(canvasData); }, 1500);
+       post(cc); }, 1500);
   
 
 }
